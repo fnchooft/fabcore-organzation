@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [PoC-space](getting-started/poc-space/README.md)
+  * [Examples](getting-started/poc-space/examples.md)
 
 ## Basics
 
