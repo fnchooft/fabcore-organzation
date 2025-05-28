@@ -64,14 +64,14 @@ So, here come the generated artifiacts.
 
 ### Person.h
 
-{% code title="Person.h" overflow="wrap" lineNumbers="true" lanaguage="c" %}
+{% code title="Person.h" overflow="wrap" lineNumbers="true" language="c" %}
 include({{Person.h}})
 {% endcode %}
 
 
 ### Person.c
 
-{% code title="Person.c" overflow="wrap" lineNumbers="true" lanaguage="c" %}
+{% code title="Person.c" overflow="wrap" lineNumbers="true" language="c" %}
 include({{Person.c}})
 {% endcode %}
 
