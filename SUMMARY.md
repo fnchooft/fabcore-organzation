@@ -6,16 +6,9 @@
 
 * [PoC-space](getting-started/poc-space/README.md)
   * [Examples](getting-started/poc-space/examples.md)
+  * [GSL](getting-started/gsl-example/README.md)
 
 ***
 
 * [GitBook notes](gitbook-notes.md)
 
-## Basics
-
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
