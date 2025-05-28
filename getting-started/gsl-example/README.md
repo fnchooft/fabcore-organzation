@@ -69,6 +69,7 @@ So, here come the generated artifiacts.
 
 ### Person.c
 
-```c
+{% code title="Person.c" overflow="wrap" lineNumbers="true" %}
 {% include "Person.c" %}
-```
+{% endcode %}
+
