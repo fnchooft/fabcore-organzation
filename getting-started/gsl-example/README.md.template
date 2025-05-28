@@ -2,7 +2,7 @@ changequote(`{{', `}}')
 
 # Generator Scripting Language - teaching Gemini
 
-First of all a shout-out to the [GSL](www.github.com/zeromq/gsl)-tool.
+First of all a shout-out to the [GSL](https://github.com/zeromq/gsl)-tool.
 It is fantastic, simple, robust and after you get the hang of it - extremely addictive.
 
 Please read more about it - and about its author [Pieter Hintjes](https://en.wikipedia.org/wiki/Pieter_Hintjens).
@@ -12,7 +12,7 @@ Gemini performs better then DeepSeek and ChatGPT in coding tasks.
 
 So I took that opertunity to:
 
-1. Teach Gemini about [GSL](www.github.com/zeromq/gsl)
+1. Teach Gemini about [GSL](https://github.com/zeromq/gsl)
 2. Provide the README.txt file as context
 3. Explain what I wanted, and asked it to generate some artifacts.
 
