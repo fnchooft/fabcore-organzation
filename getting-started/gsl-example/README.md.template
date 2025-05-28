@@ -1,5 +1,4 @@
 changequote(`{{', `}}')
-
 ---
 description: GSL Templating using Gemini 2.5 Pro
 ---
@@ -26,7 +25,7 @@ Gemini produced:
 ### entities.xml
 
 ```xml
-{% include "entities.xml" %}
+include({{entities.xml}})
 ```
 
 After this I requested it to write the gsl-template to generate, on the basis of the entity-format C-structs.
@@ -34,20 +33,22 @@ After this I requested it to write the gsl-template to generate, on the basis of
 ### entity_generator.gsl
 The resulting template after some back and forth looks like this:
 
-{% include "entity_generator.gsl" language="c" %}
+```c
+include({{entity_generator.gsl}})
+```
 
 I then asked it to generate a main.c file and a Makefile in order to compile the entire example:
 
 ### main.c
 
 ```c
-{% include "main.c" %}
+include({{main.c}})
 ```
 
 ### Makefile
 
 ```Makefile
-{% include "Makefile" %}
+include({{Makefile}})
 ```
 
 
@@ -64,14 +65,13 @@ So, here come the generated artifiacts.
 
 ### Person.h
 
-{% code title="Person.h" overflow="wrap" lineNumbers="true" language="c" %}
+```c
 include({{Person.h}})
-{% endcode %}
+```
 
 
 ### Person.c
 
-{% code title="Person.c" overflow="wrap" lineNumbers="true" language="c" %}
+```c
 include({{Person.c}})
-{% endcode %}
-
+```
