@@ -23,7 +23,9 @@ Gemini produced:
 
 ### entities.xml
 
-{% include "entities.xml" language="xml" %}
+```xml
+{% include "entities.xml" %}
+```
 
 After this I requested it to write the gsl-template to generate, on the basis of the entity-format C-structs.
 
@@ -36,12 +38,15 @@ I then asked it to generate a main.c file and a Makefile in order to compile the
 
 ### main.c
 
-{% include "main.c" language="c" %}
+```c
+{% include "main.c" %}
+```
 
 ### Makefile
 
-{% include "Makefile" language="makefile" %}
-
+```Makefile
+{% include "Makefile" %}
+```
 
 
 ## Generated artifacts
@@ -57,8 +62,13 @@ So, here come the generated artifiacts.
 
 ### Person.h
 
-{% include "Person.h" language="c" %}
+```c
+{% include "Person.h" %}
+```
+
 
 ### Person.c
 
-{% include "Person.c" language="c" %}
+```c
+{% include "Person.c" %}
+```
