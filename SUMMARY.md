@@ -7,6 +7,10 @@
 * [PoC-space](getting-started/poc-space/README.md)
   * [Examples](getting-started/poc-space/examples.md)
 
+***
+
+* [GitBook notes](gitbook-notes.md)
+
 ## Basics
 
 * [Editor](basics/editor.md)
