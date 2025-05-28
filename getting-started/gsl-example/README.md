@@ -70,6 +70,6 @@ So, here come the generated artifiacts.
 ### Person.c
 
 {% code title="Person.c" overflow="wrap" lineNumbers="true" %}
-{% include "Person.c" %}
+{{ file.content("Person.c") }}
 {% endcode %}
 
