@@ -1,18 +1,20 @@
 
----
-description: GSL Templating using Gemini 2.5 Pro
----
 
 # Generator Scripting Language - teaching Gemini
+
+First of all a shout-out to the [GSL](www.github.com/zeromq/gsl)-tool.
+It is fantastic, simple, robust and after you get the hang of it - extremely addictive.
+
+Please read more about it - and about its author [Pieter Hintjes](https://en.wikipedia.org/wiki/Pieter_Hintjens).
 
 During a recent course AI was explained and someone mentioned that
 Gemini performs better then DeepSeek and ChatGPT in coding tasks.
 
 So I took that opertunity to:
 
-1. Teach Gemini about GSL ( www.github.com/zeromq/gsl)
+1. Teach Gemini about [GSL](www.github.com/zeromq/gsl)
 2. Provide the README.txt file as context
-3. Explain what I wanted.
+3. Explain what I wanted, and asked it to generate some artifacts.
 
 ## The assignment
 
@@ -29,15 +31,6 @@ Gemini produced:
 
 <schema script="entity_generator.gsl">
 
-  <entity name="interface">
-    <field name="id" type="int" desc="Unique identifier for the interface"/>
-    <field name="name" type="char*" desc="First name of the interface"/>
-    <field name="type" type="char*" desc="Last name of the interface"/>
-    <field name="enabled" type="int" desc="Age of the interface"/>
-  </entity>
-
-  <!-- Add more entities here as needed -->
-  <!--
   <entity name="Person">
     <field name="id" type="int" desc="Unique identifier for the person"/>
     <field name="firstName" type="char*" desc="First name of the person"/>
@@ -50,6 +43,16 @@ Gemini produced:
     <field name="name" type="char*" desc="Name of the product"/>
     <field name="price" type="double" desc="Price of the product"/>
     <field name="quantity" type="int" desc="Available quantity in stock"/>
+  </entity>
+
+
+  <!-- Add more entities here as needed -->
+  <!--
+  <entity name="interface">
+    <field name="id" type="int" desc="Unique identifier for the interface"/>
+    <field name="name" type="char*" desc="First name of the interface"/>
+    <field name="type" type="char*" desc="Last name of the interface"/>
+    <field name="enabled" type="int" desc="Age of the interface"/>
   </entity>
 
   <entity name="Order">
@@ -409,7 +412,6 @@ void freePersonList(PersonNode** head);
 
 ```
 
-
 ### Person.c
 
 ```c
@@ -506,3 +508,10 @@ void freePersonList(PersonNode** head) {
 }
 
 ```
+
+
+## Conclusions
+
+1. Gemini is better at this then the other solutions I tried. It outperformes DeepSeek ( which I think is really good!)
+2. Gemini might get stuck on a certain issue - for instance - in the templates, the code which needs to be generated should not have a dot as first character.
+3. C-code might be better, but leave it to experts ( humanzzzz ) to provider better examples which we can incorporate.

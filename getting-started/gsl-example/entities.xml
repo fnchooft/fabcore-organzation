@@ -2,15 +2,6 @@
 
 <schema script="entity_generator.gsl">
 
-  <entity name="interface">
-    <field name="id" type="int" desc="Unique identifier for the interface"/>
-    <field name="name" type="char*" desc="First name of the interface"/>
-    <field name="type" type="char*" desc="Last name of the interface"/>
-    <field name="enabled" type="int" desc="Age of the interface"/>
-  </entity>
-
-  <!-- Add more entities here as needed -->
-  <!--
   <entity name="Person">
     <field name="id" type="int" desc="Unique identifier for the person"/>
     <field name="firstName" type="char*" desc="First name of the person"/>
@@ -23,6 +14,16 @@
     <field name="name" type="char*" desc="Name of the product"/>
     <field name="price" type="double" desc="Price of the product"/>
     <field name="quantity" type="int" desc="Available quantity in stock"/>
+  </entity>
+
+
+  <!-- Add more entities here as needed -->
+  <!--
+  <entity name="interface">
+    <field name="id" type="int" desc="Unique identifier for the interface"/>
+    <field name="name" type="char*" desc="First name of the interface"/>
+    <field name="type" type="char*" desc="Last name of the interface"/>
+    <field name="enabled" type="int" desc="Age of the interface"/>
   </entity>
 
   <entity name="Order">

@@ -1,18 +1,20 @@
 changequote(`{{', `}}')
----
-description: GSL Templating using Gemini 2.5 Pro
----
 
 # Generator Scripting Language - teaching Gemini
+
+First of all a shout-out to the [GSL](www.github.com/zeromq/gsl)-tool.
+It is fantastic, simple, robust and after you get the hang of it - extremely addictive.
+
+Please read more about it - and about its author [Pieter Hintjes](https://en.wikipedia.org/wiki/Pieter_Hintjens).
 
 During a recent course AI was explained and someone mentioned that
 Gemini performs better then DeepSeek and ChatGPT in coding tasks.
 
 So I took that opertunity to:
 
-1. Teach Gemini about GSL ( www.github.com/zeromq/gsl)
+1. Teach Gemini about [GSL](www.github.com/zeromq/gsl)
 2. Provide the README.txt file as context
-3. Explain what I wanted.
+3. Explain what I wanted, and asked it to generate some artifacts.
 
 ## The assignment
 
@@ -69,9 +71,15 @@ So, here come the generated artifiacts.
 include({{Person.h}})
 ```
 
-
 ### Person.c
 
 ```c
 include({{Person.c}})
 ```
+
+
+## Conclusions
+
+1. Gemini is better at this then the other solutions I tried. It outperformes DeepSeek ( which I think is really good!)
+2. Gemini might get stuck on a certain issue - for instance - in the templates, the code which needs to be generated should not have a dot as first character.
+3. C-code might be better, but leave it to experts ( humanzzzz ) to provider better examples which we can incorporate.
