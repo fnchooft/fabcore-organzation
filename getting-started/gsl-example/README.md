@@ -63,7 +63,7 @@ So, here come the generated artifiacts.
 ### Person.h
 
 ```c
-{% include "Person.h" %}
+{{ file.content("Person.h") }}
 ```
 
 
