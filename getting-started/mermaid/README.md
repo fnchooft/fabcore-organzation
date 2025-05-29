@@ -13,6 +13,7 @@ So I took that opertunity to:
 ## Result
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 graph TD
     AAA_Root["AAA"]
 
