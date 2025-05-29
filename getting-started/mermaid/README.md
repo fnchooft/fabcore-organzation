@@ -86,8 +86,34 @@ become easier this way.
 
 ## GitBook
 
-An example in the GitBook-docs itself would not hurt anyone... ;)
+- An example in the GitBook-docs itself would not hurt anyone... ;)
+
+- Dark-mode - would really be nice ( if it worked in GitBook).
+
+## Admonitions
+
+You need to use hints... not very pretty...
+
+
+{% hint style="info" %}
+**Info hints** are great for showing general information, or providing tips and tricks.
+{% endhint %}
+
+{% hint style="success" %}
+**Success hints** are good for showing positive actions or achievements.
+{% endhint %}
+
+{% hint style="warning" %}
+**Warning hints** are good for showing important information or non-critical warnings.
+{% endhint %}
+
+{% hint style="danger" %}
+**Danger hints** are good for highlighting destructive actions or raising attention to critical information.
+{% endhint %}
+
+
+
 
 ## Links
 
-- https://raw.githubusercontent.com/mermaidjs/mermaid-gitbook
+- [Mermaid Gitbook Examples](https://raw.githubusercontent.com/mermaidjs/mermaid-gitbook)
