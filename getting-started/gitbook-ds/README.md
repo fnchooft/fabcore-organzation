@@ -13,6 +13,7 @@
 | Paragraph   | Text        |
 
 ### Level 3: Aligned Table (GitBook supports this)
+
 | Left-Aligned | Center-Aligned | Right-Aligned |
 |:-------------|:--------------:|--------------:|
 | Cell A       | Cell B         | Cell C        |
@@ -30,3 +31,35 @@ flowchart TD
     B -->|Yes| C[Action 1]
     B -->|No| D[Action 2]
 ```
+
+
+# Testing rich-qoutes....
+
+It should be easy to annotate:
+
+**Info** Info
+
+**Note** Note
+
+**Tag** Tag
+
+**Comment** Comment
+
+**Hint** Hint
+
+**Success** Success
+
+**Warning** Warning
+
+**Caution** Caution
+
+**Danger** Danger
+
+**Quote** Quote
+
+
+# Links
+
+ - [Creating content - GitBook](https://gitbook.com/docs/creating-content/formatting)
+
+  - Added [richqoutes](https://github.com/erixtekila/gitbook-plugin-richquotes)
