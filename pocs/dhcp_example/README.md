@@ -1,0 +1,25 @@
+# Implementation of DHCP-model
+
+Many examples exist on how to model network equipment, and many need
+a data-structure in C to fill these models by using an API.
+
+This folder contains an example of such an implementation.
+
+We use the [stb](https://github.com/nothings/stb)-library.
+
+## Specifics
+
+The implementation assumed fixed string-length.
+
+See the dhcp_config.c file for this.
+
+On many embedded systems we know (and must know) the limitations
+which are 
+
+
+## Files
+
+- {% file src="dhcpd.yang" %}dhcpd.yang{% endfile %}
+- {% file src="Makefile" %}Makefile{% endfile %}
+- {% file src="dhcp_config.c" %}dhcp_config.c{% endfile %}
+
