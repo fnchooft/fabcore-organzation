@@ -341,7 +341,7 @@ int main() {
 
 ## Download links
 
-- {% file src="dhcpd.yang" %}dhcpd.yang{% endfile %}
-- {% file src="Makefile" %}Makefile{% endfile %}
-- {% file src="dhcp_config.c" %}dhcp_config.c{% endfile %}
+{% file src="dhcpd.yang" %}dhcpd.yang{% endfile %}
+{% file src="Makefile" %}Makefile{% endfile %}
+{% file src="dhcp_config.c" %}dhcp_config.c{% endfile %}
 

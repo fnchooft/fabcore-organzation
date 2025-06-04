@@ -209,6 +209,6 @@ int main() {
 
 ## Download links
 
-- {% file src="Makefile" %}Makefile{% endfile %}
-- {% file src="main.c" %}main.c{% endfile %}
-- {% file src="string_test.c" %}string_test.c{% endfile %}
+{% file src="Makefile" %}Makefile{% endfile %}
+{% file src="main.c" %}main.c{% endfile %}
+{% file src="string_test.c" %}string_test.c{% endfile %}
