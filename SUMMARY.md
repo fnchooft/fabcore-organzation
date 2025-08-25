@@ -12,6 +12,8 @@
     * [DHCP](pocs/dhcp_example/README.md)
     * [DS](pocs/stb_ds_example/README.md)
     * [XMLDocBook](pocs/xml_docbook_insights/README.md)
+    * [PostgresLTree](pocs/ai_studio_pg_ltree/README.md)
+    * [PostgresTraffic](pocs/grok_docker_intermittence/README.md)
 
 -----
 * [GitBook notes](gitbook-notes.md)
